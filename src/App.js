@@ -35,6 +35,7 @@ handleSubmit(e) {
   render() {
     return (
       <div className="App">
+      <h2>My To-Do List</h2>
        <ul>
          { this.state.todos.map( (todo, index)=>
            <ToDo key={ index } description={ todo.description} isCompleted={ todo.isCompleted } toggleComplete={ () => this.toggleComplete(index) }/>
@@ -42,7 +43,7 @@ handleSubmit(e) {
        </ul>
          <form onSubmit={ (e) => this.handleSubmit(e) }>
            <input type="text" value={ this.state.newTodoDescription } onChange={ (e) => this.handleChange(e) } />
-           <input type="submit" />
+           <button type="submit">Add Task</button>
         </form>
       </div>
     );
