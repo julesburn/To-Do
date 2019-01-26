@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  color: #4a4c4c;
+  background-color: #d5eded;
+  border: solid black 5px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button{
+  margin-left: 10px;
+  color: black;
+  background-color: linen;
+  border-radius: 50%;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  padding: 7px;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  border: solid black 1px;
+  margin: 10px;
+}
+h2 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
